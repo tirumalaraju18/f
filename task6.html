@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div</title>
+    <style>
+        /* Style for the container div */
+        .centered-div {
+            width: 80%;
+            height: 50vh;
+            margin: auto;
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .centered-div:hover {
+            width: 90%;
+            height: 40vh;
+        }
+
+        .centered-div h1 {
+            font-size: 2rem;
+            margin-bottom: 10px; 
+        }
+
+        .centered-div p {
+            font-size: 1.2em;
+            margin-bottom: 20px; 
+            text-align: center;
+        }
+
+        .centered-div button {
+            padding: 10px 45px;
+            font-size: 1rem;
+            background-color: skyblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .centered-div button:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-div">
+        <h1>Welcome </h1>
+        <p>This is a simple, responsive container wit</p>
+        <button>Click Me</button>
+    </div>
+</body>
+</html>
